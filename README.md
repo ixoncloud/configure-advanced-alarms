@@ -10,11 +10,10 @@ This script allows you to create a new data alarm in IXON Cloud--with more than 
 2. Create a new file named config.json in the same directory as main.py, and copy the following JSON object into it:
 
 ```json
-Copy code
 {
-    "authorization": "Bearer [INSERT YOUR IXON API TOKEN HERE]",
-    "api_company": "[INSERT YOUR IXON COMPANY ID HERE]",
-    "api_application": "[INSERT YOUR IXON APPLICATION ID HERE]"
+  "authorization": "Bearer [INSERT YOUR IXON API TOKEN HERE]",
+  "api_company": "[INSERT YOUR IXON COMPANY ID HERE]",
+  "api_application": "[INSERT YOUR IXON APPLICATION ID HERE]"
 }
 ```
 
